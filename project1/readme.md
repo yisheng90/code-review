@@ -2,9 +2,8 @@
 
 ## Project Repo
 
-_Put the link to your partner's project here_
+https://github.com/cavacado/poc
 
-## Review
 
 #### Project Purpose
 
@@ -39,26 +38,25 @@ The project structure are as follow:
 
 #### Features
 
-* Animation for the Flowing Fluid.
-  * Explanation on how it's implemented
-* Multiplier
-  * Explanation on how it's implemented
-* Feature 3
-  * Explanation on how it's implemented
+* Flowing Fluid Animation.
+  * The animation is achieved via keyframes and css clip-path. The developer uses clip-path: polygon to set the initial and final shape of the images, allow it to create a fluid-flow-like animation.
+* Switching of tiles
+  * The switching of tiles is done by currying methods.
+
 
 #### Areas of Success (Code, Organization)
 
-* Animation for the Flowing Fluid
-  * Explanation on why you found it successful or elegant
-* ???
-  * Explanation on why you found it successful or elegant
+* Flowing Fluid Animation.
+  * The animation for the fluid flow makes the game more interactive and enhance the user experience of the game.
+* The multiplier Feature.
+  * The length multiplier add some excitement to the original game. It motivates player to form a longer pipeline and thus made the game more challenging.
 
 #### Areas for Improvement (Code, Organization)
 
 * Disable Used Tiles
-  * Explanation on how it could be improved
+  * The player are still able to select the used tiles. It will be better if it could be disabled.
 * Factoring of Code
-  * Explanation on how it could be improved
+  * Some part of the code can be refactored to make it more readable.
 
 ## Additional Notes
 
